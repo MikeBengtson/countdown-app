@@ -1,0 +1,26 @@
+.btn-circle {
+    width         : 30px;
+    height        : 30px;
+    text-align    : center;
+    padding       : 6px 0;
+    font-size     : 12px;
+    line-height   : 1.428571429;
+    border-radius : 15px;
+}
+
+.form-horizontal {
+    width   : 500px;
+    padding : 6px 0;
+}
+
+.datetime-picker-dropdown {
+
+}
+
+.datetime-picker-dropdown > li.date-picker-menu div > table .btn-default {
+    border : 0;
+}
+
+.datetime-picker-dropdown > li.time-picker-menu div > table {
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "countdown-app",
+  "version": "1.0.0",
+  "description": "Simple angular.js demo app.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Bengtson",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.2"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rev": "^8.1.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28"
+  }
+}

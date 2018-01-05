@@ -1,0 +1,32 @@
+<div class="modal-header">
+    <h3>Add Countdown Timer</h3>
+</div>
+<div class="modal-body">
+
+    <form class="form-horizontal">
+        <label class="col-sm-2 control-label">Name</label>
+        <div class="input-group">
+
+            <input type="text" class="form-control" size="100" ng-model="testController.name" is-open="testController.isOpen"/>
+        </div>
+        <label class="col-sm-2 control-label">Date</label>
+        <div class="input-group">
+            <input type="text" class="form-control" datetime-picker="dd MMM yyyy HH:mm"
+                   ng-model="testController.date"
+                   is-open="testController.isOpen"/>
+            <span class="input-group-btn">
+        <button type="button" class="btn btn-default" ng-click="testController.openCalendar($event, prop)"><i class="fa fa-calendar"></i></button>
+        </span>
+        </div>
+</div>
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-warning"
+            data-ng-click="testController.close()">Cancel
+    </button>
+    <button class="btn btn-primary"
+            data-ng-click="testController.ok();">Ok
+    </button>
+    </form>
+</div>

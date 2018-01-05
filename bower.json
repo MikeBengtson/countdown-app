@@ -1,0 +1,30 @@
+{
+  "name": "countdown-app",
+  "description": "Simple angular.js demo app.",
+  "main": "index.html",
+  "authors": [
+    "Mike Bengtson"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/main/webapp/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.8",
+    "requirejs": "^2.3.5",
+    "angular-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-ui-datetime-picker": "^2.6.0",
+    "countdownjs": "^2.6.0",
+    "angular-route": "^1.6.8",
+    "jquery": "^3.2.1",
+    "titatoggle": "^1.2.14"
+  }
+}

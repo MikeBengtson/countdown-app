@@ -1,0 +1,23 @@
+<div class="container">
+    <h3>Countdown Timers</h3>
+
+    <div class="checkbox indicator-info checkbox-slider--b checkbox-slider-md checkbox-slider-info">
+        <label>
+            <input type="checkbox" ng-checked="$scope.editing" ng-model="$scope.editing"><span class="indicator-info">Edit</span>
+        </label>
+    </div>
+    <table class="table">
+        <tr height="50" ng-repeat="timer in display">
+            <td width="200" class="text-left text-info">{{ timer.name }}</td>
+            <td width="400" class="text-left text-info">{{ timer.time }}</td>
+            <td width="100" class="text-left text-warning">{{ timer.modifier }}
+            </td>
+            <td>
+                <edit-button></edit-button>
+            </td>
+        </tr>
+    </table>
+    <button type="button" class="btn btn-info btn-circle" ng-click="addTimer()"><i class="glyphicon glyphicon-plus"></i></button>
+
+</div>
+</div>
